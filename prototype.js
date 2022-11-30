@@ -6,7 +6,7 @@
 
 // let customObject = new CustomObjectConst();
 
-// // console.log(customObject.__proto__ === CustomObject.prototype);
+// console.log(customObject.__proto__ === customObject.prototype);
 // console.log(customObject.__proto__.constructor === CustomObjectConst);
 // console.log(CustomObjectConst.prototype.constructor === CustomObjectConst);
 
@@ -63,3 +63,16 @@
 //   Object.getOwnPropertyDescriptors(obj)
 // );
 // console.log(Object.getOwnPropertyDescriptors(obj));
+
+// 1. false
+// 2. false
+// 3. false / true
+// 4. false
+// 5. true / false
+// 6 false
+// 7. true
+// 8. false / true
+// 9.  { constructor: IINCUBATOR} /  Function.prototype
+// 10. Number.prototype
+
+// 6 правильних відповідей
